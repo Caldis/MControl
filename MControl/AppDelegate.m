@@ -1,18 +1,38 @@
-//
+///
 //  AppDelegate.m
-//  MControl
+//  kinectClient
 //
-//  Created by Cyrus on 14-9-15.
+//  Created by 陈标 on 14-4-19.
 //  Copyright (c) 2014年 Cb. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "menuViewController.h"
+#import "mainViewController.h"
+#import "remoteControlViewController.h"
+#import "ICSDrawerController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSArray *menuList = [NSArray arrayWithObjects:@"Data Stream",@"Remote Control", nil];
+    NSArray *colors = @[[UIColor colorWithRed:237.0f/255.0f green:195.0f/255.0f blue:0.0f/255.0f alpha:1.0f],
+                        [UIColor colorWithRed:237.0f/255.0f green:147.0f/255.0f blue:0.0f/255.0f alpha:1.0f]
+                        ];
+    //初始化menuViewController
+    menuViewController *left = [[menuViewController alloc]initWithMenus:menuList andColors:colors];
+    //初始化mainviewcontroller为Storybroad中的mainCenterViewController
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];
+    mainViewController *center = (mainViewController *)[storyboard instantiateInitialViewController];
+    
+    //初始化drawer
+    ICSDrawerController *drawer = [[ICSDrawerController alloc]initWithLeftViewController:left centerViewController:center];
+    //加载到rootViewontroller
+    self.window.rootViewController = drawer;
+
+    
     return YES;
 }
 							

@@ -12,16 +12,40 @@
 		7565BCD819C6D7130078F55C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7565BCD719C6D7130078F55C /* UIKit.framework */; };
 		7565BCDE19C6D7130078F55C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7565BCDC19C6D7130078F55C /* InfoPlist.strings */; };
 		7565BCE019C6D7130078F55C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BCDF19C6D7130078F55C /* main.m */; };
-		7565BCE419C6D7130078F55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BCE319C6D7130078F55C /* AppDelegate.m */; };
-		7565BCE719C6D7130078F55C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7565BCE519C6D7130078F55C /* Main_iPhone.storyboard */; };
-		7565BCEA19C6D7130078F55C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7565BCE819C6D7130078F55C /* Main_iPad.storyboard */; };
-		7565BCED19C6D7130078F55C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BCEC19C6D7130078F55C /* ViewController.m */; };
 		7565BCEF19C6D7130078F55C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7565BCEE19C6D7130078F55C /* Images.xcassets */; };
 		7565BCF619C6D7130078F55C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7565BCF519C6D7130078F55C /* XCTest.framework */; };
 		7565BCF719C6D7130078F55C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7565BCD319C6D7130078F55C /* Foundation.framework */; };
 		7565BCF819C6D7130078F55C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7565BCD719C6D7130078F55C /* UIKit.framework */; };
 		7565BD0019C6D7130078F55C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7565BCFE19C6D7130078F55C /* InfoPlist.strings */; };
 		7565BD0219C6D7130078F55C /* MControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD0119C6D7130078F55C /* MControlTests.m */; };
+		7565BD0C19C6D7570078F55C /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD0B19C6D7570078F55C /* Entitlements.plist */; };
+		7565BD1519C6D77A0078F55C /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD0F19C6D77A0078F55C /* ASValuePopUpView.m */; };
+		7565BD1619C6D77A0078F55C /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD1119C6D77A0078F55C /* ASValueTrackingSlider.m */; };
+		7565BD1719C6D77A0078F55C /* BZGFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD1419C6D77A0078F55C /* BZGFormField.m */; };
+		7565BD3119C6D7D30078F55C /* buttom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD2919C6D7D30078F55C /* buttom.png */; };
+		7565BD3219C6D7D30078F55C /* buttomPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD2A19C6D7D30078F55C /* buttomPressed.png */; };
+		7565BD3319C6D7D30078F55C /* joyStickBase.png in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD2B19C6D7D30078F55C /* joyStickBase.png */; };
+		7565BD3419C6D7D30078F55C /* joyStickNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD2C19C6D7D30078F55C /* joyStickNormal.png */; };
+		7565BD3519C6D7D30078F55C /* joyStickPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD2D19C6D7D30078F55C /* joyStickPress.png */; };
+		7565BD3619C6D7D30078F55C /* menubuttom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD2E19C6D7D30078F55C /* menubuttom.png */; };
+		7565BD3719C6D7D30078F55C /* padBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD2F19C6D7D30078F55C /* padBackground.png */; };
+		7565BD3819C6D7D30078F55C /* phoneBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD3019C6D7D30078F55C /* phoneBackground.png */; };
+		7565BD5119C6D87B0078F55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD3A19C6D87B0078F55C /* AppDelegate.m */; };
+		7565BD5219C6D87B0078F55C /* colorVideoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD3C19C6D87B0078F55C /* colorVideoStreamViewController.m */; };
+		7565BD5319C6D87B0078F55C /* depthVideoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD3E19C6D87B0078F55C /* depthVideoStreamViewController.m */; };
+		7565BD5719C6D87B0078F55C /* glViewControllerShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD4319C6D87B0078F55C /* glViewControllerShader.m */; };
+		7565BD5C19C6D87B0078F55C /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD4B19C6D87B0078F55C /* mainViewController.m */; };
+		7565BD5D19C6D87B0078F55C /* menuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD4D19C6D87B0078F55C /* menuViewController.m */; };
+		7565BD5E19C6D87B0078F55C /* remoteControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD4F19C6D87B0078F55C /* remoteControlViewController.m */; };
+		7565BD6519C6D8F60078F55C /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD6219C6D8F60078F55C /* ICSDrawerController.m */; };
+		7565BD6619C6D8F60078F55C /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565BD6419C6D8F60078F55C /* ICSDropShadowView.m */; };
+		7565BD6B19C6D9250078F55C /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD6919C6D9250078F55C /* Shader.fsh */; };
+		7565BD6E19C6D9410078F55C /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD6C19C6D9410078F55C /* FragmentShader.glsl */; };
+		7565BD6F19C6D9410078F55C /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD6D19C6D9410078F55C /* VertexShader.glsl */; };
+		7565BD7319C6DA870078F55C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD7219C6DA870078F55C /* Main_iPhone.storyboard */; };
+		7565BD7519C6DAF30078F55C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7565BD7419C6DAF30078F55C /* Main_iPad.storyboard */; };
+		7565BD7B19C6DDF50078F55C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7565BD7A19C6DDF50078F55C /* OpenGLES.framework */; };
+		7565BD7D19C6DDFB0078F55C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7565BD7C19C6DDFB0078F55C /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,18 +67,52 @@
 		7565BCDD19C6D7130078F55C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7565BCDF19C6D7130078F55C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7565BCE119C6D7130078F55C /* MControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MControl-Prefix.pch"; sourceTree = "<group>"; };
-		7565BCE219C6D7130078F55C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7565BCE319C6D7130078F55C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7565BCE619C6D7130078F55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		7565BCE919C6D7130078F55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		7565BCEB19C6D7130078F55C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7565BCEC19C6D7130078F55C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7565BCEE19C6D7130078F55C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7565BCF419C6D7130078F55C /* MControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7565BCF519C6D7130078F55C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7565BCFD19C6D7130078F55C /* MControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MControlTests-Info.plist"; sourceTree = "<group>"; };
 		7565BCFF19C6D7130078F55C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7565BD0119C6D7130078F55C /* MControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MControlTests.m; sourceTree = "<group>"; };
+		7565BD0B19C6D7570078F55C /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		7565BD0E19C6D77A0078F55C /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		7565BD0F19C6D77A0078F55C /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		7565BD1019C6D77A0078F55C /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		7565BD1119C6D77A0078F55C /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		7565BD1319C6D77A0078F55C /* BZGFormField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZGFormField.h; sourceTree = "<group>"; };
+		7565BD1419C6D77A0078F55C /* BZGFormField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZGFormField.m; sourceTree = "<group>"; };
+		7565BD2919C6D7D30078F55C /* buttom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttom.png; path = Image/buttom.png; sourceTree = "<group>"; };
+		7565BD2A19C6D7D30078F55C /* buttomPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttomPressed.png; path = Image/buttomPressed.png; sourceTree = "<group>"; };
+		7565BD2B19C6D7D30078F55C /* joyStickBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joyStickBase.png; path = Image/joyStickBase.png; sourceTree = "<group>"; };
+		7565BD2C19C6D7D30078F55C /* joyStickNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joyStickNormal.png; path = Image/joyStickNormal.png; sourceTree = "<group>"; };
+		7565BD2D19C6D7D30078F55C /* joyStickPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joyStickPress.png; path = Image/joyStickPress.png; sourceTree = "<group>"; };
+		7565BD2E19C6D7D30078F55C /* menubuttom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menubuttom.png; path = Image/menubuttom.png; sourceTree = "<group>"; };
+		7565BD2F19C6D7D30078F55C /* padBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = padBackground.png; path = Image/padBackground.png; sourceTree = "<group>"; };
+		7565BD3019C6D7D30078F55C /* phoneBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phoneBackground.png; path = Image/phoneBackground.png; sourceTree = "<group>"; };
+		7565BD3919C6D87B0078F55C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7565BD3A19C6D87B0078F55C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7565BD3B19C6D87B0078F55C /* colorVideoStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorVideoStreamViewController.h; sourceTree = "<group>"; };
+		7565BD3C19C6D87B0078F55C /* colorVideoStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorVideoStreamViewController.m; sourceTree = "<group>"; };
+		7565BD3D19C6D87B0078F55C /* depthVideoStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = depthVideoStreamViewController.h; sourceTree = "<group>"; };
+		7565BD3E19C6D87B0078F55C /* depthVideoStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = depthVideoStreamViewController.m; sourceTree = "<group>"; };
+		7565BD4219C6D87B0078F55C /* glViewControllerShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glViewControllerShader.h; sourceTree = "<group>"; };
+		7565BD4319C6D87B0078F55C /* glViewControllerShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = glViewControllerShader.m; sourceTree = "<group>"; };
+		7565BD4A19C6D87B0078F55C /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		7565BD4B19C6D87B0078F55C /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		7565BD4C19C6D87B0078F55C /* menuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuViewController.h; sourceTree = "<group>"; };
+		7565BD4D19C6D87B0078F55C /* menuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuViewController.m; sourceTree = "<group>"; };
+		7565BD4E19C6D87B0078F55C /* remoteControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = remoteControlViewController.h; sourceTree = "<group>"; };
+		7565BD4F19C6D87B0078F55C /* remoteControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = remoteControlViewController.m; sourceTree = "<group>"; };
+		7565BD6119C6D8F60078F55C /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
+		7565BD6219C6D8F60078F55C /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
+		7565BD6319C6D8F60078F55C /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
+		7565BD6419C6D8F60078F55C /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		7565BD6A19C6D9250078F55C /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = en; path = en.lproj/Shader.fsh; sourceTree = "<group>"; };
+		7565BD6C19C6D9410078F55C /* FragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
+		7565BD6D19C6D9410078F55C /* VertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
+		7565BD7219C6DA870078F55C /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7565BD7419C6DAF30078F55C /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		7565BD7A19C6DDF50078F55C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7565BD7C19C6DDFB0078F55C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7565BD7D19C6DDFB0078F55C /* GLKit.framework in Frameworks */,
+				7565BD7B19C6DDF50078F55C /* OpenGLES.framework in Frameworks */,
 				7565BCD619C6D7130078F55C /* CoreGraphics.framework in Frameworks */,
 				7565BCD819C6D7130078F55C /* UIKit.framework in Frameworks */,
 				7565BCD419C6D7130078F55C /* Foundation.framework in Frameworks */,
@@ -103,6 +163,8 @@
 		7565BCD219C6D7130078F55C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7565BD7C19C6DDFB0078F55C /* GLKit.framework */,
+				7565BD7A19C6DDF50078F55C /* OpenGLES.framework */,
 				7565BCD319C6D7130078F55C /* Foundation.framework */,
 				7565BCD519C6D7130078F55C /* CoreGraphics.framework */,
 				7565BCD719C6D7130078F55C /* UIKit.framework */,
@@ -114,13 +176,28 @@
 		7565BCD919C6D7130078F55C /* MControl */ = {
 			isa = PBXGroup;
 			children = (
-				7565BCE219C6D7130078F55C /* AppDelegate.h */,
-				7565BCE319C6D7130078F55C /* AppDelegate.m */,
-				7565BCE519C6D7130078F55C /* Main_iPhone.storyboard */,
-				7565BCE819C6D7130078F55C /* Main_iPad.storyboard */,
-				7565BCEB19C6D7130078F55C /* ViewController.h */,
-				7565BCEC19C6D7130078F55C /* ViewController.m */,
+				7565BD7219C6DA870078F55C /* Main_iPhone.storyboard */,
+				7565BD7419C6DAF30078F55C /* Main_iPad.storyboard */,
+				7565BD3919C6D87B0078F55C /* AppDelegate.h */,
+				7565BD3A19C6D87B0078F55C /* AppDelegate.m */,
+				7565BD4C19C6D87B0078F55C /* menuViewController.h */,
+				7565BD4D19C6D87B0078F55C /* menuViewController.m */,
+				7565BD4A19C6D87B0078F55C /* mainViewController.h */,
+				7565BD4B19C6D87B0078F55C /* mainViewController.m */,
+				7565BD4E19C6D87B0078F55C /* remoteControlViewController.h */,
+				7565BD4F19C6D87B0078F55C /* remoteControlViewController.m */,
+				7565BD3B19C6D87B0078F55C /* colorVideoStreamViewController.h */,
+				7565BD3C19C6D87B0078F55C /* colorVideoStreamViewController.m */,
+				7565BD3D19C6D87B0078F55C /* depthVideoStreamViewController.h */,
+				7565BD3E19C6D87B0078F55C /* depthVideoStreamViewController.m */,
+				7565BD4219C6D87B0078F55C /* glViewControllerShader.h */,
+				7565BD4319C6D87B0078F55C /* glViewControllerShader.m */,
 				7565BCEE19C6D7130078F55C /* Images.xcassets */,
+				7565BD1819C6D7A20078F55C /* Image */,
+				7565BD6819C6D9250078F55C /* Shaders */,
+				7565BD6019C6D8F60078F55C /* ICSDrawerController */,
+				7565BD0D19C6D77A0078F55C /* ASValueTrackingSlider */,
+				7565BD1219C6D77A0078F55C /* BZGFormField */,
 				7565BCDA19C6D7130078F55C /* Supporting Files */,
 			);
 			path = MControl;
@@ -132,6 +209,7 @@
 				7565BCDB19C6D7130078F55C /* MControl-Info.plist */,
 				7565BCDC19C6D7130078F55C /* InfoPlist.strings */,
 				7565BCDF19C6D7130078F55C /* main.m */,
+				7565BD0B19C6D7570078F55C /* Entitlements.plist */,
 				7565BCE119C6D7130078F55C /* MControl-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -153,6 +231,62 @@
 				7565BCFE19C6D7130078F55C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7565BD0D19C6D77A0078F55C /* ASValueTrackingSlider */ = {
+			isa = PBXGroup;
+			children = (
+				7565BD0E19C6D77A0078F55C /* ASValuePopUpView.h */,
+				7565BD0F19C6D77A0078F55C /* ASValuePopUpView.m */,
+				7565BD1019C6D77A0078F55C /* ASValueTrackingSlider.h */,
+				7565BD1119C6D77A0078F55C /* ASValueTrackingSlider.m */,
+			);
+			path = ASValueTrackingSlider;
+			sourceTree = "<group>";
+		};
+		7565BD1219C6D77A0078F55C /* BZGFormField */ = {
+			isa = PBXGroup;
+			children = (
+				7565BD1319C6D77A0078F55C /* BZGFormField.h */,
+				7565BD1419C6D77A0078F55C /* BZGFormField.m */,
+			);
+			path = BZGFormField;
+			sourceTree = "<group>";
+		};
+		7565BD1819C6D7A20078F55C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				7565BD2919C6D7D30078F55C /* buttom.png */,
+				7565BD2A19C6D7D30078F55C /* buttomPressed.png */,
+				7565BD2B19C6D7D30078F55C /* joyStickBase.png */,
+				7565BD2C19C6D7D30078F55C /* joyStickNormal.png */,
+				7565BD2D19C6D7D30078F55C /* joyStickPress.png */,
+				7565BD2E19C6D7D30078F55C /* menubuttom.png */,
+				7565BD2F19C6D7D30078F55C /* padBackground.png */,
+				7565BD3019C6D7D30078F55C /* phoneBackground.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		7565BD6019C6D8F60078F55C /* ICSDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				7565BD6119C6D8F60078F55C /* ICSDrawerController.h */,
+				7565BD6219C6D8F60078F55C /* ICSDrawerController.m */,
+				7565BD6319C6D8F60078F55C /* ICSDropShadowView.h */,
+				7565BD6419C6D8F60078F55C /* ICSDropShadowView.m */,
+			);
+			path = ICSDrawerController;
+			sourceTree = "<group>";
+		};
+		7565BD6819C6D9250078F55C /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				7565BD6919C6D9250078F55C /* Shader.fsh */,
+				7565BD6D19C6D9410078F55C /* VertexShader.glsl */,
+				7565BD6C19C6D9410078F55C /* FragmentShader.glsl */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +333,7 @@
 		7565BCC819C6D7130078F55C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Cb;
 				TargetAttributes = {
 					7565BCF319C6D7130078F55C = {
@@ -231,10 +365,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7565BCEA19C6D7130078F55C /* Main_iPad.storyboard in Resources */,
+				7565BD3519C6D7D30078F55C /* joyStickPress.png in Resources */,
+				7565BD3619C6D7D30078F55C /* menubuttom.png in Resources */,
+				7565BD3419C6D7D30078F55C /* joyStickNormal.png in Resources */,
+				7565BD6F19C6D9410078F55C /* VertexShader.glsl in Resources */,
+				7565BD3819C6D7D30078F55C /* phoneBackground.png in Resources */,
+				7565BD0C19C6D7570078F55C /* Entitlements.plist in Resources */,
 				7565BCEF19C6D7130078F55C /* Images.xcassets in Resources */,
-				7565BCE719C6D7130078F55C /* Main_iPhone.storyboard in Resources */,
+				7565BD6B19C6D9250078F55C /* Shader.fsh in Resources */,
+				7565BD3119C6D7D30078F55C /* buttom.png in Resources */,
+				7565BD3219C6D7D30078F55C /* buttomPressed.png in Resources */,
+				7565BD3319C6D7D30078F55C /* joyStickBase.png in Resources */,
 				7565BCDE19C6D7130078F55C /* InfoPlist.strings in Resources */,
+				7565BD6E19C6D9410078F55C /* FragmentShader.glsl in Resources */,
+				7565BD7519C6DAF30078F55C /* Main_iPad.storyboard in Resources */,
+				7565BD3719C6D7D30078F55C /* padBackground.png in Resources */,
+				7565BD7319C6DA870078F55C /* Main_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +399,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7565BCED19C6D7130078F55C /* ViewController.m in Sources */,
-				7565BCE419C6D7130078F55C /* AppDelegate.m in Sources */,
+				7565BD1719C6D77A0078F55C /* BZGFormField.m in Sources */,
+				7565BD5719C6D87B0078F55C /* glViewControllerShader.m in Sources */,
 				7565BCE019C6D7130078F55C /* main.m in Sources */,
+				7565BD1519C6D77A0078F55C /* ASValuePopUpView.m in Sources */,
+				7565BD5E19C6D87B0078F55C /* remoteControlViewController.m in Sources */,
+				7565BD1619C6D77A0078F55C /* ASValueTrackingSlider.m in Sources */,
+				7565BD5219C6D87B0078F55C /* colorVideoStreamViewController.m in Sources */,
+				7565BD5D19C6D87B0078F55C /* menuViewController.m in Sources */,
+				7565BD5319C6D87B0078F55C /* depthVideoStreamViewController.m in Sources */,
+				7565BD6619C6D8F60078F55C /* ICSDropShadowView.m in Sources */,
+				7565BD5119C6D87B0078F55C /* AppDelegate.m in Sources */,
+				7565BD5C19C6D87B0078F55C /* mainViewController.m in Sources */,
+				7565BD6519C6D8F60078F55C /* ICSDrawerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,28 +442,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7565BCE519C6D7130078F55C /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7565BCE619C6D7130078F55C /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		7565BCE819C6D7130078F55C /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7565BCE919C6D7130078F55C /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		7565BCFE19C6D7130078F55C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7565BCFF19C6D7130078F55C /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7565BD6919C6D9250078F55C /* Shader.fsh */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7565BD6A19C6D9250078F55C /* en */,
+			);
+			name = Shader.fsh;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -329,7 +477,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -368,7 +516,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -470,6 +618,7 @@
 				7565BD0719C6D7130078F55C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7565BD0819C6D7130078F55C /* Build configuration list for PBXNativeTarget "MControlTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +627,7 @@
 				7565BD0A19C6D7130078F55C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
